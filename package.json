@@ -1,0 +1,32 @@
+{ "name": "repo-template-nodejs-pmb",
+  "version": "0.0.0",
+  "description": "Basic scaffolding for new npm packages.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/repo-template-nodejs-pmb/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/repo-template-nodejs-pmb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/repo-template-nodejs-pmb/issues"
+  },
+  "contributors": [],
+
+  "private": true, "license": "ISC",
+
+  "main": "package.json",
+  "scripts": { "test": "elp && nodejs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {},
+  "devDependencies": {
+    "equal-pmb": "^0.1.6",
+    "lib-demo-util-160404": "^0.1.13"
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=24.0.0" }
+}
